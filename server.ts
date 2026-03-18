@@ -9,7 +9,7 @@ import multer from 'multer';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import fs from 'fs';
-import db, { initDb } from './db.js';
+import db, { initDb } from './db';
 
 dotenv.config();
 
